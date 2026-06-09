@@ -1,4 +1,4 @@
-# Day: Descption
+# June 9th: Research & parts
 goals:
 Do parts research on what is needed
 
