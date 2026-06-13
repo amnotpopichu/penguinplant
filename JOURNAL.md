@@ -1,3 +1,34 @@
+# June 13th: understanding
+cool! realizing the hole im digging myself into with qfn. anyways lets understand some parts today. (im procrastionating on reading data sheets). 
+1. sheets in kicad exist! press s to use them. apparently hierarical vs global labels vs power labels, but for my project i shall stick with global. 
+2. things exist! heres some i will use while designing <br>a. [schematic checklist](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html)
+<br> b. [datasheet](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf) <br> c. [hardware design guidelines](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/esp-hardware-design-guidelines-en-master-esp32s3.pdf)
+3. crystal things exist! (i have only used xiao modudles and wroom dev modules so this is brand new to me). pretty much it needs to do funny timing stuff, so i need to make a "clock" with the xtal_p and xtal_n pins. the 32k ones are if i need precice timing during deep sleep (which i dont really). otherwise it turns out they can become gpio!
+4. VDD is pretty much powering everything
+5. PU chip is pull up. kinda important to keep EVERYTHING running. it apparently just makes the chip not turn on if its not pulled up. yikes!
+5. strapping pins exist! its cool. it tells chippy what to do WHLIE booting. maybe avoid them! (and then also use them when i actaully need to)
+6. there are a lot of vdds. also some do other things like rtc. idk why but hopefully i figure it out at some point
+7. avoid gpio 19 and 20 cus they are part of usb pins
+8. SPI pins importnat. idk what they do yet. it seems i will use them to flash stuff. i will look into this more later.
+9. MT pins are debug dont really touch cus i dont need i can use as gpio ig uess
+10. U0. maybe these are the real flashing pins. i dont know yet
+11. gpio0 important i needd reset pin for flash (maybe)
+12. adc 2 pins dont work with wifi (no clue why)
+13. weak pulldown exists
+
+![image name](journal_imgs/examplesch.png)
+
+
+**Total time spent: 0.75 hours**
+
+
+# June 10th: parts
+okayyy so i decided ima do fully SMD PCBA with the xiao s3 chip itself, rather than the xiao xiao! i wanted to do this because i feel like it will be a much harder challenge, and will be more fun (aka work), and allow me to grow as a builder a lot more. TIL that lcsc's parts library is NOT the same as JLCPCB's part library even tho they source from LCSC. welp i guess they source form other places too. also i will be switching to an s3 for performance.
+![image name](journal_imgs/jlcss.png)
+
+**Total time spent: 0.5 hours**
+
+
 # June 9th: Research & parts
 goals:
 Do parts research on what is needed
