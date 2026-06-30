@@ -1,5 +1,20 @@
+# June 19th: uh kicad work i guess
+i added more gpio pins. im struggling to find where my 3.3v will come out on the pinout of the esp but welp that seems like a later issue. also did some quick wiring while looking at documentation (ima cry). I think i will focus on wiring up sensors first, and next priority is figuring out where 3v3 comes from.
+![image name](journal_imgs/kicad_jun_1th.png)
+**Total time spent: 0.25 hours**
+
+# June 14th: sensor work
+i orginally thought i would need 90 degree joints and funny pcb design but i had the amazing realization that oh wait wires exist! so thats somekthing to remeber. another thing i should keep in mind is that my water should prob be in a different container than my electronics otherwise that could be kinda bad!
+
+I will also be using stuff from JLC for pcba work:
+- [esp32 s3](https://jlcpcb.com/partdetail/EspressifSystems-ESP32S3/C2913192)
+- [AO3400A mosfet](https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917)
+ill add flyback diodes later when i figure them out. guess who just learned global labels are different than regular after making a stupid amount of regular labels!
+
+![image name](journal_imgs/kicad_jun_14.png)
+**Total time spent: 0.5 hours**
 # June 13th: understanding
-cool! realizing the hole im digging myself into with qfn. anyways lets understand some parts today. (im procrastionating on reading data sheets). 
+cool! realizing the hole im digging myself into with qfn. anyways lets understand some parts today. (im procrastionating on reading data sheets).
 1. sheets in kicad exist! press s to use them. apparently hierarical vs global labels vs power labels, but for my project i shall stick with global. 
 2. things exist! heres some i will use while designing <br>a. [schematic checklist](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html)
 <br> b. [datasheet](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf) <br> c. [hardware design guidelines](https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/esp-hardware-design-guidelines-en-master-esp32s3.pdf)
