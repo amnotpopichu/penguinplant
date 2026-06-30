@@ -1,6 +1,22 @@
+# June 29th: KICAD RAHHHHHH
+GUESS WHO FINALLY GOT AROUND TO WIRING THINGS ME RAHHHHHHH. okay its like really late so lets go through what I did. The main things I did was do all of the mcu wiring (woah i didnt know i could do it). This took an really long time. why? cus im really dumb. took me a good few minutes to find the schematic, then took me time to reailze the example schematic and my schematic can differ.
+
+Here are some key things i learned/did today:
+1. was reminded that xtal32k isnt useful to me (i dont need exact precice timing)
+2. was REALLY happy to learn i didn't have to wire LNA_in because im not doing wifi
+3. figured out that all of the MT stuff is mainly for debugging (but because this will work first try i hopefully wont have to use for funny hardware debugging)
+4. i learned what a decopuling capacitor is !! pretty much to my knowledge it just acts as a little backup, so things dont really go wrong (ie dropped voltage)
+5. rx and tx are important for flashing data 
+6. i have to use inductors. what is an inductor? i dont really know. something about filtering out noise 
+7. crytsals somehow keep time. dont ask me how they just do. also there is a funny formula somewhere that the longer the traces are to the crystal teh change in capacitator needed!! 
+
+Anyways I need to deal with battery management another time. quick thanks to [@JBlitzar](https://github.com/JBlitzar) bc i based my flashing mechanism off of his (did you know that gpio9 is now legacy or something and gpio0 is now boot for some c3 chips??)
+![image name](journal_imgs/kicad_jun_29th.png)
+**Total time spent: 1.5 hours**
+
 # June 19th: uh kicad work i guess
 i added more gpio pins. im struggling to find where my 3.3v will come out on the pinout of the esp but welp that seems like a later issue. also did some quick wiring while looking at documentation (ima cry). I think i will focus on wiring up sensors first, and next priority is figuring out where 3v3 comes from.
-![image name](journal_imgs/kicad_jun_1th.png)
+![image name](journal_imgs/kicad_jun_19th.png)
 **Total time spent: 0.25 hours**
 
 # June 14th: sensor work
