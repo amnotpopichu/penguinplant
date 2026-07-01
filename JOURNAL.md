@@ -1,3 +1,9 @@
+# June 1st: WAKE UP ITS THE FIRST OF THE MONTH
+RAHH BATTERY WIRING WE LOVE STAYING UP ON ABSURD TIMES TO WORK ON KICAD CUS JETLAG RAHHHHHH
+anywyas i spent a lot of time today reading through documentaiton (ewwwww) of the BQ24074RGTR i will be using to control my battery + lipo. i got stuck on a few things and will deal with en1 and ilim another time. otherwise hopefully it will work !! i need to add usb port for it next (i have NO clue how usb works so i bet im in for a treat)
+https://lapse.hackclub.com/timelapse/Dbl2Vt9vdpjg
+**Total time spent: 0.5 hours**
+
 # June 29th: KICAD RAHHHHHH
 GUESS WHO FINALLY GOT AROUND TO WIRING THINGS ME RAHHHHHHH. okay its like really late so lets go through what I did. The main things I did was do all of the mcu wiring (woah i didnt know i could do it). This took an really long time. why? cus im really dumb. took me a good few minutes to find the schematic, then took me time to reailze the example schematic and my schematic can differ.
 
