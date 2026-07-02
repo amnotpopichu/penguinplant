@@ -1,4 +1,4 @@
-# June 1st: WAKE UP ITS THE FIRST OF THE MONTH
+# July 1st: WAKE UP ITS THE FIRST OF THE MONTH
 RAHH BATTERY WIRING WE LOVE STAYING UP ON ABSURD TIMES TO WORK ON KICAD CUS JETLAG RAHHHHHH
 anywyas i spent a lot of time today reading through documentaiton (ewwwww) of the BQ24074RGTR i will be using to control my battery + lipo. i got stuck on a few things and will deal with en1 and ilim another time. otherwise hopefully it will work !! i need to add usb port for it next (i have NO clue how usb works so i bet im in for a treat)
 https://lapse.hackclub.com/timelapse/Dbl2Vt9vdpjg
