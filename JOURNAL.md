@@ -1,3 +1,12 @@
+# July 4th: batt stuff
+bro im so tired of battery work
+i figured out how EN pins work -- turns out it assigns current or usb draw or usb500 or something todo with usb draw. anywyas i delt with that assigning it to usb2.0 standards. after that i had to figure out how im going to actually step it down, so i learned about buck boosts converters NOT step down bc boost is important. this whole thing is so overkill so TPS63900DSKR and another incredible ic from TI that im throwing in (i still need to add usb port). genuienly atp idk when ima finish battery power but its ok cus progress is progress. 
+
+on the usb side it looks like ima do some stuff with ignoring HALF the usbc pins because most of them dont actaully matter and are for data delivery (which may be another project another time) so pretty much i have like 4 real pins to focus on and then something about fast charging.
+
+![image name](journal_imgs/kicad_jul_4th.png)
+**Total time spent: 0.5 hours**
+
 # July 1st: WAKE UP ITS THE FIRST OF THE MONTH
 RAHH BATTERY WIRING WE LOVE STAYING UP ON ABSURD TIMES TO WORK ON KICAD CUS JETLAG RAHHHHHH
 anywyas i spent a lot of time today reading through documentaiton (ewwwww) of the BQ24074RGTR i will be using to control my battery + lipo. i got stuck on a few things and will deal with en1 and ilim another time. otherwise hopefully it will work !! i need to add usb port for it next (i have NO clue how usb works so i bet im in for a treat)
