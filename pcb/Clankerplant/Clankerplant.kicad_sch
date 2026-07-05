@@ -4659,7 +4659,7 @@
 	)
 	(rectangle
 		(start 18.415 169.545)
-		(end 188.595 238.125)
+		(end 271.145 238.125)
 		(stroke
 			(width 0)
 			(type default)
@@ -4712,16 +4712,6 @@
 			)
 		)
 		(uuid "27b69910-ca55-4f6b-afcb-472957862214")
-	)
-	(text "en1 and 2 is mystery to me as well as ilim for now\n"
-		(exclude_from_sim no)
-		(at 117.602 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54401994-8f94-4ee7-b642-675a29b65b68")
 	)
 	(text "mcu\n"
 		(exclude_from_sim no)
@@ -5175,6 +5165,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 212.09) (xy 210.82 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339698cb-519c-4d43-8aa1-4b14a0cbf230")
+	)
+	(wire
+		(pts
 			(xy 114.3 198.12) (xy 129.54 198.12)
 		)
 		(stroke
@@ -5285,6 +5285,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 205.74) (xy 205.74 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6117a1ce-74c0-4a68-a2c9-945a330d662d")
+	)
+	(wire
+		(pts
 			(xy 41.91 210.82) (xy 41.91 213.36)
 		)
 		(stroke
@@ -5292,6 +5302,16 @@
 			(type default)
 		)
 		(uuid "62508c41-6a7c-45a1-82cd-e995fd4fd509")
+	)
+	(wire
+		(pts
+			(xy 152.4 208.28) (xy 168.91 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f07348-f780-4e45-9f83-575f8037816b")
 	)
 	(wire
 		(pts
@@ -5465,6 +5485,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 210.82) (xy 168.91 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9789de41-1374-4539-ae24-eacb97fda219")
+	)
+	(wire
+		(pts
 			(xy 228.6 60.96) (xy 228.6 67.31)
 		)
 		(stroke
@@ -5555,6 +5585,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 204.47) (xy 210.82 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f9811e-89d9-4cf1-8d02-3c3a6767707f")
+	)
+	(wire
+		(pts
 			(xy 39.37 214.63) (xy 46.99 214.63)
 		)
 		(stroke
@@ -5642,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "b6bec0a2-e3af-449c-a40f-c21817f47cac")
+	)
+	(wire
+		(pts
+			(xy 199.39 208.28) (xy 205.74 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f7ff96-ab9e-49ad-a994-4465555c6c74")
 	)
 	(wire
 		(pts
@@ -5745,6 +5795,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 208.28) (xy 205.74 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5637be4-beb8-4c97-b985-abb9e61bd126")
+	)
+	(wire
+		(pts
 			(xy 107.95 91.44) (xy 107.95 97.79)
 		)
 		(stroke
@@ -5772,6 +5832,16 @@
 			(type default)
 		)
 		(uuid "dd8edd78-a6ce-445c-9f5b-c98e565ce62e")
+	)
+	(wire
+		(pts
+			(xy 199.39 205.74) (xy 205.74 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df871716-bf70-421c-9cf7-447e971f0406")
 	)
 	(wire
 		(pts
@@ -7229,6 +7299,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 165.1 213.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af6bb79-f25d-4e15-9637-a58dc04796c5")
+		(property "Reference" "R6"
+			(at 165.1 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16.2 kΩ"
+			(at 165.1 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.846 214.376 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 165.1 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7826e8b-783f-495b-b490-3a2c4d02a0d6")
+		)
+		(pin "2"
+			(uuid "8fab951e-1944-4d9c-b934-fc2c7ccf6357")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 209.55 90)
 		(unit 1)
@@ -8100,6 +8250,84 @@
 			(project "Clankerplant"
 				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b5bb62-409f-415d-b2be-30fea7f9a366")
+		(property "Reference" "#PWR033"
+			(at 153.67 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68c5e5a8-3c26-4daa-983a-0b7b4b74b712")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9426,6 +9654,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 157.48 210.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6051816c-706c-4cc4-a064-cdea3a1e540d")
+		(property "Reference" "R7"
+			(at 157.48 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 157.48 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.734 209.804 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 157.48 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daaf31b7-0a21-4e75-85cd-4ac1ea04eef6")
+		)
+		(pin "2"
+			(uuid "018b5419-053a-498c-94e3-84a2d100b02f")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 85.09 31.75 0)
 		(unit 1)
@@ -9663,6 +9971,84 @@
 			(project "Clankerplant"
 				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 213.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c702418-1dbf-434f-9830-4c86319130fc")
+		(property "Reference" "#PWR032"
+			(at 161.29 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e058b39-3318-4fbc-9b82-5c43c2e396c9")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10512,6 +10898,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b235883f-bfd9-42fa-8766-cd882d0d5ec2")
+		(property "Reference" "#PWR034"
+			(at 144.78 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63c5b7ea-bfe8-4358-bec0-fdf120e3ae0c")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 111.76 100.33 270)
 		(unit 1)
@@ -10674,6 +11138,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 210.82 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c11115-0152-4b8b-8c79-59af1e1b6ccd")
+		(property "Reference" "L3"
+			(at 212.09 207.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uH"
+			(at 212.09 209.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 210.82 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a780d338-ffa9-470c-a525-003bb4179b4c")
+		)
+		(pin "1"
+			(uuid "10a4d702-a22a-4199-a21b-23a8c2ab125c")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 222.25 0)
 		(unit 1)
@@ -10746,6 +11292,86 @@
 			(project "Clankerplant"
 				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 148.59 208.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0497d11-b5fc-4dbb-9155-2769b36444a8")
+		(property "Reference" "R8"
+			(at 148.59 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "36.5 kΩ"
+			(at 148.59 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.844 207.264 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 148.59 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "245c3c5c-187d-4e26-b6ab-0994016f2c2a")
+		)
+		(pin "2"
+			(uuid "d5e1448d-385d-44ed-83df-aef1e9d97762")
+		)
+		(instances
+			(project "Clankerplant"
+				(path "/c38b9f96-68ff-4585-b50b-5eddebbf629e"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11904,7 +12530,7 @@
 	)
 	(symbol
 		(lib_id "TPS63900DSKR:TPS63900DSKR")
-		(at 166.37 204.47 0)
+		(at 184.15 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11915,7 +12541,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d0b402-02e9-4a30-a1a6-bc5f59ae0b0f")
 		(property "Reference" "U3"
-			(at 166.37 184.15 0)
+			(at 184.15 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11925,7 +12551,7 @@
 			)
 		)
 		(property "Value" "TPS63900DSKR"
-			(at 166.37 186.69 0)
+			(at 184.15 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11935,7 +12561,7 @@
 			)
 		)
 		(property "Footprint" "IC_TPS63900DSKR:IC_TPS63900DSKR"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,7 +12573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +12584,7 @@
 			)
 		)
 		(property "Description" "1.8-V to 5.5-V, 75-nA IQ buck-boost converter with input current limit and Dynamic Voltage Scaling"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11970,7 +12596,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11982,7 +12608,7 @@
 			)
 		)
 		(property "Package" "WSON-10 Texas Instruments"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12620,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12006,7 +12632,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TPS63900DSKR/Texas+Instruments/view-part/?ref=eda"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12018,7 +12644,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12030,7 +12656,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12042,7 +12668,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS63900DSKR/Texas+Instruments/view-part/?ref=snap"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12054,7 +12680,7 @@
 			)
 		)
 		(property "MP" "TPS63900DSKR"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,7 +12692,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4822560&manufacturer=Texas Instruments&part_name=TPS63900DSKR&search_term=None"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,7 +12704,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12090,7 +12716,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 166.37 204.47 0)
+			(at 184.15 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
