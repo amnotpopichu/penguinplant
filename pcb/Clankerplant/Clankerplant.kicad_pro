@@ -640,7 +640,7 @@
         "uuid": "c38b9f96-68ff-4585-b50b-5eddebbf629e"
       }
     ],
-    "used_designators": "#PWR32-34,R6-8,L3",
+    "used_designators": "J2,#PWR32-44,C15-16,R6-8,L3",
     "variants": []
   },
   "sheets": [
