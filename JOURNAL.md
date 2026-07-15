@@ -1,19 +1,33 @@
+# July 6th:
+so guess who has realized that uart is NOT flashign data ME ME ME ME EM. okay. i lied. it can be, but its not really necessary when you have D+ and D- (omg i cant wait to route this!! i heard orouting data lines for usb is REALLY fun!!) okay i also learned that gpio 9 is NOT the pin for strapping in s3 cus i got mixed up with c3!!! also also get this: i have NO clue how to wire chip en cus apparently i need to pull it high and low for button and then some capacitator stuff ill figure out later. anyways most of today was going back and reading datasheets i thought i was done with while consulting google. also i added the upload button! Time spent: 0.5 hours
+
+![image name](journal_imgs/kicad_jul_4th2.png)
+**Total time spent: 0 hours**
+
+# July 4th: (but later)
+Worked on more batt work -- i wired up the TPS63900DSKR and started work on the usbc. i remebered i can just like use usbc for actual flashing instead of using a weird system to do it so time to figure out how data lines work!!! i cant wait!!!
+
+wasnt super complicated after i learned what SEL was and how dual outputs work and then after reading some input tables it was pretty simple. Time spent: 0.75 hours
+![image name](journal_imgs/kicad_jul_4th2.png)
+
+**Total time spent: 0 hours**
+
 # July 4th: batt stuff
 bro im so tired of battery work
 i figured out how EN pins work -- turns out it assigns current or usb draw or usb500 or something todo with usb draw. anywyas i delt with that assigning it to usb2.0 standards. after that i had to figure out how im going to actually step it down, so i learned about buck boosts converters NOT step down bc boost is important. this whole thing is so overkill so TPS63900DSKR and another incredible ic from TI that im throwing in (i still need to add usb port). genuienly atp idk when ima finish battery power but its ok cus progress is progress. 
 
-on the usb side it looks like ima do some stuff with ignoring HALF the usbc pins because most of them dont actaully matter and are for data delivery (which may be another project another time) so pretty much i have like 4 real pins to focus on and then something about fast charging.
+on the usb side it looks like ima do some stuff with ignoring HALF the usbc pins because most of them dont actaully matter and are for data delivery (which may be another project another time) so pretty much i have like 4 real pins to focus on and then something about fast charging. Time spent: 0.5 hours
 
 ![image name](journal_imgs/kicad_jul_4th.png)
-**Total time spent: 0.5 hours**
+**Total time spent: 0 hours**
 
 # July 1st: WAKE UP ITS THE FIRST OF THE MONTH
 RAHH BATTERY WIRING WE LOVE STAYING UP ON ABSURD TIMES TO WORK ON KICAD CUS JETLAG RAHHHHHH
 anywyas i spent a lot of time today reading through documentaiton (ewwwww) of the BQ24074RGTR i will be using to control my battery + lipo. i got stuck on a few things and will deal with en1 and ilim another time. otherwise hopefully it will work !! i need to add usb port for it next (i have NO clue how usb works so i bet im in for a treat)
-https://lapse.hackclub.com/timelapse/Dbl2Vt9vdpjg
+https://lapse.hackclub.com/timelapse/Dbl2Vt9vdpjg time spent: 0.5 hours
 ![image name](journal_imgs/kicad_jul_1st.png)
 
-**Total time spent: 0.5 hours**
+**Total time spent: 0 hours**
 
 # June 29th: KICAD RAHHHHHH
 GUESS WHO FINALLY GOT AROUND TO WIRING THINGS ME RAHHHHHHH. okay its like really late so lets go through what I did. The main things I did was do all of the mcu wiring (woah i didnt know i could do it). This took an really long time. why? cus im really dumb. took me a good few minutes to find the schematic, then took me time to reailze the example schematic and my schematic can differ.
@@ -27,14 +41,14 @@ Here are some key things i learned/did today:
 6. i have to use inductors. what is an inductor? i dont really know. something about filtering out noise 
 7. crytsals somehow keep time. dont ask me how they just do. also there is a funny formula somewhere that the longer the traces are to the crystal teh change in capacitator needed!! 
 
-Anyways I need to deal with battery management another time. quick thanks to [@JBlitzar](https://github.com/JBlitzar) bc i based my flashing mechanism off of his (did you know that gpio9 is now legacy or something and gpio0 is now boot for some c3 chips??)
+Anyways I need to deal with battery management another time. quick thanks to [@JBlitzar](https://github.com/JBlitzar) bc i based my flashing mechanism off of his (did you know that gpio9 is now legacy or something and gpio0 is now boot for some c3 chips??) time spent: 1.5 hours
 ![image name](journal_imgs/kicad_jun_29th.png)
-**Total time spent: 1.5 hours**
+**Total time spent: 0 hours**
 
 # June 19th: uh kicad work i guess
-i added more gpio pins. im struggling to find where my 3.3v will come out on the pinout of the esp but welp that seems like a later issue. also did some quick wiring while looking at documentation (ima cry). I think i will focus on wiring up sensors first, and next priority is figuring out where 3v3 comes from.
+i added more gpio pins. im struggling to find where my 3.3v will come out on the pinout of the esp but welp that seems like a later issue. also did some quick wiring while looking at documentation (ima cry). I think i will focus on wiring up sensors first, and next priority is figuring out where 3v3 comes from. time spent: 0.25 hours
 ![image name](journal_imgs/kicad_jun_19th.png)
-**Total time spent: 0.25 hours**
+**Total time spent: 0 hours**
 
 # June 14th: sensor work
 i orginally thought i would need 90 degree joints and funny pcb design but i had the amazing realization that oh wait wires exist! so thats somekthing to remeber. another thing i should keep in mind is that my water should prob be in a different container than my electronics otherwise that could be kinda bad!
@@ -42,10 +56,10 @@ i orginally thought i would need 90 degree joints and funny pcb design but i had
 I will also be using stuff from JLC for pcba work:
 - [esp32 s3](https://jlcpcb.com/partdetail/EspressifSystems-ESP32S3/C2913192)
 - [AO3400A mosfet](https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3400A/C20917)
-ill add flyback diodes later when i figure them out. guess who just learned global labels are different than regular after making a stupid amount of regular labels!
+ill add flyback diodes later when i figure them out. guess who just learned global labels are different than regular after making a stupid amount of regular labels! time spent: 0.5 hours
 
 ![image name](journal_imgs/kicad_jun_14.png)
-**Total time spent: 0.5 hours**
+**Total time spent: 0 hours**
 # June 13th: understanding
 cool! realizing the hole im digging myself into with qfn. anyways lets understand some parts today. (im procrastionating on reading data sheets).
 1. sheets in kicad exist! press s to use them. apparently hierarical vs global labels vs power labels, but for my project i shall stick with global. 
@@ -63,18 +77,20 @@ cool! realizing the hole im digging myself into with qfn. anyways lets understan
 11. gpio0 important i needd reset pin for flash (maybe)
 12. adc 2 pins dont work with wifi (no clue why)
 13. weak pulldown exists
+time spent: 0.75 hours
 
 ![image name](journal_imgs/examplesch.png)
 
 
-**Total time spent: 0.75 hours**
+**Total time spent: 0 hours**
 
 
 # June 10th: parts
 okayyy so i decided ima do fully SMD PCBA with the xiao s3 chip itself, rather than the xiao xiao! i wanted to do this because i feel like it will be a much harder challenge, and will be more fun (aka work), and allow me to grow as a builder a lot more. TIL that lcsc's parts library is NOT the same as JLCPCB's part library even tho they source from LCSC. welp i guess they source form other places too. also i will be switching to an s3 for performance.
+time spent: 0.5 hours
 ![image name](journal_imgs/jlcss.png)
 
-**Total time spent: 0.5 hours**
+**Total time spent: 0 hours**
 
 
 # June 9th: Research & parts
@@ -94,7 +110,8 @@ Parts List:\
 
 next steps:
 pcb design!
+time spent: 1 hour
 
 ![image name](journal_imgs/notes.png)
 
-**Total time spent: 1 hours**
+**Total time spent: 0 hours**
