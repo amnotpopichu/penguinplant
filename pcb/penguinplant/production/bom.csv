@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,PinHeader_1x02_P2.54mm_Vertical,1,3.7v lipo,
+D1,D_DO-41_SOD81_P10.16mm_Horizontal,1,MUR1100,
+J1,PinHeader_1x03_P2.54mm_Vertical,1,Soil Sensor,
+J2,PinHeader_1x02_P2.54mm_Vertical,1,pump,
+J3,PinHeader_1x07_P2.54mm_Vertical,1,LCD,
+Q1,SOT-23,1,AO3400,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,10k,
+U2,XIAO-nRF52840-SMD,1,XIAO-nRF52840-SMD,
